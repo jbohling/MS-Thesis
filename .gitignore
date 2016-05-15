@@ -7,6 +7,9 @@
 *.out
 *.toc
 
+*.nlg
+*.nls
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
