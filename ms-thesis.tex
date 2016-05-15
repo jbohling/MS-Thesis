@@ -23,22 +23,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TO DO: FILL IN YOUR INFORMATION BELOW - READ THIS SECTION CAREFULLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{My Thesis or Dissertation Title}	       % title of thesis/dissertation
-\author{My Name}                % author's name
-\copyrightYear{2012}            % copyright year of your thesis/dissertation
-\graduationMonth{May}           % month of graduation of your thesis/dissertation
-\majorProfessor{My Advisor}	    % advisor's name
-\keywords{List, Of, Keywords}	% keywords (optional) separated by commas - these are used in the PDF file properties
-\viceProvost{Carolyn R. Hodges} % vice provost name
-\major{Mechanical Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
+\title{Hot Ductility Behavior of 20Cr-32Ni-1Nb Heat-Resistant Stainless Steel}	       % title of thesis/dissertation
+\author{John Bohling}                % author's name
+\copyrightYear{2016}            % copyright year of your thesis/dissertation
+\graduationMonth{August}           % month of graduation of your thesis/dissertation
+\majorProfessor{Carl D. Lundin}	    % advisor's name
+\keywords{Hot ductility, Gleeble, 20Cr-32Ni-1Nb, Stainless steel}	% keywords (optional) separated by commas - these are used in the PDF file properties
+\viceProvost{Dixie Thompson} % vice provost name
+\major{Materials Science and Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
 \degree{Master of Science}	    % degree: Doctor of Philosophy, Master of Science, Master of Engineering...
 \college{Engineering}           % college
-\dept{Mechanical, Aerospace and Biomedical Engineering}	% department
+\dept{Materials Science and Engineering}	% department
 \university{The University  of Tennessee, Knoxville}	% school name
 % THIS TEMPLATE ACCOMMODATES UP TO 5 COMMITTEE MEMBERS - ENTER ONLY THE NAMES OF THE MEMBERS ON YOUR COMMITTEE
 \numberOfCommitteeMembers{2} % enter the number of committee members
-\committeeMemberA {Committee Member 1}	% name of first committee member
-\committeeMemberB {Committee Member 2}	% name of second committee member
+\committeeMemberA {Hahn Choo}	% name of first committee member
+\committeeMemberB {Carl J. McHargue}	% name of second committee member
 \committeeMemberC {Committee Member 3}	% ... you get the trend!
 \committeeMemberD {Committee Member 4}	% if your committee has less than 4 members, you do not need to edit the
 \committeeMemberE {Committee Member 5}  % rest of committee names
@@ -96,7 +96,8 @@
     \listoffigures % generate a list of figures
     %
     \makenomenclature % OPTIONAL
-    \addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
+    %\addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
+    \addToTOC{Nomenclature}
     \printnomenclature[1.25in] % OPTIONAL
     %
     \newpage
@@ -105,17 +106,20 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % INCLUDE THE CHAPTERS STARTING WITH THE NOMENCLATURE IF PRESENT
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \include{front-matter/nomenclature} % OPTIONAL
+    %\include{front-matter/nomenclature} % OPTIONAL
     \include{chapters/chapter-1}
     \include{chapters/chapter-2}
     \include{chapters/chapter-3}
     \include{chapters/chapter-4}
+    \include{chapters/chapter-5}
+    \include{chapters/chapter-6}
+    \include{chapters/chapter-7}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % BIBLIOGRAPHY
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
     \bibliographystyle{apalike} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
-    \bibliography{references/references-dissertation} % references.bib included in the references directory
+    \bibliography{references/references-thesis} % references.bib included in the references directory
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % APPENDIX - OPTIONAL - COMMENT IF NOT NEEDED
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
