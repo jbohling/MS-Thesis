@@ -24,7 +24,7 @@
 % TO DO: FILL IN YOUR INFORMATION BELOW - READ THIS SECTION CAREFULLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Hot Ductility Behavior of 20Cr-32Ni-1Nb Heat-Resistant Stainless Steel}	       % title of thesis/dissertation
-\author{John Bohling}                % author's name
+\author{John William Bohling}                % author's name
 \copyrightYear{2016}            % copyright year of your thesis/dissertation
 \graduationMonth{August}           % month of graduation of your thesis/dissertation
 \majorProfessor{Carl D. Lundin}	    % advisor's name
@@ -45,7 +45,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LOAD SOME USEFUL PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{nomencl}                    % produces a nomenclature
+\usepackage[intoc]{nomencl}                    % produces a nomenclature
 \usepackage{float}                      % figure floats
 \usepackage{natbib}                     % this package allows you to link your references
 \usepackage{graphicx}					% graphics package
@@ -57,6 +57,7 @@
 \usepackage{booktabs}                   % professional looking tables
 \usepackage[config, labelfont={bf}]{caption,subfig} % nice sub figures
 \usepackage{mathrsfs}                   % additional math scripts
+\usepackage{flafter}                    % force floats to be placed after their definition
 %%% PACKAGES THAT ARE PRELOADED WITH THE CLASS ARE: amsmath,amsthm,amssymb,setspace,geometry,hyperref,and color
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -97,7 +98,7 @@
     %
     \makenomenclature % OPTIONAL
     %\addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
-    \addToTOC{Nomenclature}
+    %\addToTOC{Nomenclature}
     \printnomenclature[1.25in] % OPTIONAL
     %
     \newpage
@@ -118,7 +119,7 @@
     % BIBLIOGRAPHY
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
-    \bibliographystyle{apalike} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
+    \bibliographystyle{plainnat} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
     \bibliography{references/references-thesis} % references.bib included in the references directory
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % APPENDIX - OPTIONAL - COMMENT IF NOT NEEDED
