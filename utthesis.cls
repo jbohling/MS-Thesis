@@ -109,7 +109,7 @@
 \RequirePackage{amsmath,amsthm,amssymb}     % AMS math, AMS theorem, AMS fonts
 \RequirePackage{setspace}                   % line spacing
 \RequirePackage[vcentering,dvips]{geometry}	% help with margins
-\RequirePackage[pdftex,plainpages=false,pdfpagelabels=true,breaklinks=true,pagebackref]{hyperref} % for pdf bookmarks
+\RequirePackage[pdftex,plainpages=false,pdfpagelabels=true,breaklinks=true]{hyperref} % for pdf bookmarks
 \RequirePackage{color}
 %----------------------------------------------------------------------------------------------------%
 % define theorem, corollary, and lemma environments
