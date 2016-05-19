@@ -45,9 +45,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LOAD SOME USEFUL PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[intoc]{nomencl}                    % produces a nomenclature
+\usepackage{lmodern}
+\usepackage{nomencl}                    % produces a nomenclature
 \usepackage{float}                      % figure floats
-\usepackage{natbib}                     % this package allows you to link your references
+%\usepackage[square,numbers]{natbib}                     % this package allows you to link your references
+
+%\usepackage[pagebackref=true]{hyperref}
+
+\usepackage{csquotes}
+\usepackage[english]{babel}
+\usepackage[natbib=true,style=ieee,backref=true,hyperref=true,backend=biber]{biblatex}
+\addbibresource{references/references-thesis.bib}
 \usepackage{graphicx}					% graphics package
 \graphicspath{ {figures/}{figures/eps/}{figures/pdf/} }% specify the path where figures are located
 \usepackage{fancyhdr}                   % fancy headers and footers
@@ -97,7 +105,7 @@
     \listoffigures % generate a list of figures
     %
     \makenomenclature % OPTIONAL
-    %\addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
+    \addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
     %\addToTOC{Nomenclature}
     \printnomenclature[1.25in] % OPTIONAL
     %
@@ -119,8 +127,9 @@
     % BIBLIOGRAPHY
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
-    \bibliographystyle{plainnat} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
-    \bibliography{references/references-thesis} % references.bib included in the references directory
+    %\bibliographystyle{ieeetran} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
+    %\bibliography{references/references-thesis} % references.bib included in the references directory
+    \printbibliography
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % APPENDIX - OPTIONAL - COMMENT IF NOT NEEDED
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
