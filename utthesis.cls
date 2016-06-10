@@ -181,9 +181,9 @@
         \vfill
 		\Large \rm
         \ifnum\@documentID=\thesisID {
-            A Thesis Presented for
+            A Thesis Presented for the
 
-            The \@degree
+            \@degree
         } \else {
             A Dissertation
 
@@ -324,6 +324,7 @@
     \addToTOC{Bibliography} % add bibliography to table of contents
     \vspace*{2.0in} % move down the page 2.0 inches
     \begin{center}\Huge\bf{Bibliography}\end{center} % make the bibliography title
+    \newpage
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % addToTOC: macro that adds an entry to the table of contents

@@ -57,6 +57,11 @@
 \usepackage{csquotes}
 
 \usepackage[english]{babel}
+% Change ToC title to ``Table of Contents'' rather than ``Contents''
+\addto\captionsenglish{
+    \renewcommand{\contentsname}{Table of Contents}
+}
+
 \usepackage[natbib=true,style=ieee,backref=true,hyperref=true,maxcitenames=2,mincitenames=1,backend=biber]{biblatex}
 \addbibresource{references/references-thesis.bib}
 \usepackage{graphicx}					% graphics package
@@ -135,10 +140,10 @@
     \addToPDFBookmarks{0}{Table of Contents}{f}
     \tableofcontents % generate a table of contents
     %
-    \addToTOC{List of Tables} % this will add the list of tables to the Table of Contents (TOC)
+    %\addToTOC{List of Tables} % this will add the list of tables to the Table of Contents (TOC)
     \listoftables % generate a list of tables
     %
-    \addToTOC{List of Figures} % this will add the list of figures to the Table of Contents (TOC)
+    %\addToTOC{List of Figures} % this will add the list of figures to the Table of Contents (TOC)
     \listoffigures % generate a list of figures
     %
     %\makenomenclature % OPTIONAL
@@ -170,7 +175,7 @@
     \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
     %\bibliographystyle{ieeetran} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
     %\bibliography{references/references-thesis} % references.bib included in the references directory
-    \printbibliography
+    \printbibliography[heading=none] % hide bibliography heading since we already have a bibliography title page
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % APPENDIX - OPTIONAL - COMMENT IF NOT NEEDED
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
