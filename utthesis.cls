@@ -172,7 +172,7 @@
 \newcommand{\makeTitlePage} {
 	\thispagestyle{empty}
     \begin{spacing}{1.5}
-	\vspace*{0.3in}
+	\vspace*{0.2in}
 	\begin{center}
 		\huge
 		\bf
@@ -196,7 +196,7 @@
 		
 		\@university
 		
-		\vspace*{1.0in}%
+		\vspace*{1.2in}%
 		
 		\@author %
 		\\%
