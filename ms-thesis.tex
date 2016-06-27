@@ -53,17 +53,18 @@
 
 %\usepackage[pagebackref=true]{hyperref}
 
-\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}    % Use this package to ensure that certain symbols (<,>) show correctly in the text
 \usepackage{csquotes}
 
 \usepackage[english]{babel}
-% Change ToC title to ``Table of Contents'' rather than ``Contents''
+% Change ToC title to ``Table of Contents'' rather than the default ``Contents''
 \addto\captionsenglish{
     \renewcommand{\contentsname}{Table of Contents}
 }
 
 \usepackage[natbib=true,style=ieee,backref=true,hyperref=true,maxcitenames=2,mincitenames=1,backend=biber]{biblatex}
-\addbibresource{references/references-thesis.bib}
+\addbibresource{references/references-thesis.bib} % Path to your reference database file in bibLaTeX format
+
 \usepackage{graphicx}					% graphics package
 \graphicspath{ {figures/}{figures/eps/}{figures/pdf/} }% specify the path where figures are located
 \usepackage{fancyhdr}                   % fancy headers and footers
@@ -75,6 +76,9 @@
 \usepackage{mathrsfs}                   % additional math scripts
 \usepackage{flafter}                    % force floats to be placed after their definition
 \usepackage{textcomp}
+
+\usepackage[arrows=pgf-filled]{mhchem}  % for easy display of chemical equations
+
 
 % Add new column types for tables so we can specify the width and still use centering
 \usepackage{array}
