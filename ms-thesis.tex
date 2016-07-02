@@ -54,15 +54,17 @@
 %\usepackage[pagebackref=true]{hyperref}
 
 \usepackage[T1]{fontenc}    % Use this package to ensure that certain symbols (<,>) show correctly in the text
+%\usepackage[latin1]{inputenc} % lets us use umlauts in bibliography
 \usepackage{csquotes}
 
 \usepackage[english]{babel}
+
 % Change ToC title to ``Table of Contents'' rather than the default ``Contents''
 \addto\captionsenglish{
     \renewcommand{\contentsname}{Table of Contents}
 }
 
-\usepackage[natbib=true,style=ieee,backref=true,hyperref=true,maxcitenames=2,mincitenames=1,backend=biber]{biblatex}
+\usepackage[natbib=true,style=ieee,backref=true,hyperref=true,maxcitenames=2,mincitenames=1,backend=biber,citestyle=numeric-comp]{biblatex}
 \addbibresource{references/references-thesis.bib} % Path to your reference database file in bibLaTeX format
 
 \usepackage{graphicx}					% graphics package
