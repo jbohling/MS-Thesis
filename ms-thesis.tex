@@ -145,6 +145,7 @@
     \include{front-matter/abstract} % your abstract
     %
     \addToPDFBookmarks{0}{Table of Contents}{f}
+    \glsunsetall    % unset glossary to prevent expansion of acronyms in ToC, LoF, and LoT
     \tableofcontents % generate a table of contents
     %
     %\addToTOC{List of Tables} % this will add the list of tables to the Table of Contents (TOC)
@@ -152,6 +153,7 @@
     %
     %\addToTOC{List of Figures} % this will add the list of figures to the Table of Contents (TOC)
     \listoffigures % generate a list of figures
+    \glsresetall
     %
     %\makenomenclature % OPTIONAL
     
