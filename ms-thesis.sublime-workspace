@@ -31,7 +31,7 @@
 			"file": "chapters/chapter-1.tex",
 			"settings":
 			{
-				"buffer_size": 8205,
+				"buffer_size": 8495,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "chapters/chapter-2.tex",
 			"settings":
 			{
-				"buffer_size": 7044,
+				"buffer_size": 11345,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "chapters/chapter-3.tex",
 			"settings":
 			{
-				"buffer_size": 2491,
+				"buffer_size": 2719,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "chapters/chapter-4.tex",
 			"settings":
 			{
-				"buffer_size": 4078,
+				"buffer_size": 4974,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,23 @@
 			"file": "chapters/chapter-5.tex",
 			"settings":
 			{
-				"buffer_size": 15584,
+				"buffer_size": 44864,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-matter/acknowledgements.tex",
+			"settings":
+			{
+				"buffer_size": 885,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-matter/dedication.tex",
+			"settings":
+			{
+				"buffer_size": 145,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,15 +87,7 @@
 			"file": "chapters/chapter-6.tex",
 			"settings":
 			{
-				"buffer_size": 2261,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "front-matter/abbreviations.tex",
-			"settings":
-			{
-				"buffer_size": 421,
+				"buffer_size": 4700,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,43 +95,32 @@
 			"file": "chapters/chapter-7.tex",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 2442,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nLaTeXTools\n----------\n\n  LaTeXTools Plugin version 3.8.4 (2016-07-03) changelog:\n  \n  Bugfixes:\n  \n  - On Linux, prefer subl to actual executable where possible (#710)\n  - Fix Zathura viewer so reverse sync works when launched from forward sync (#762)\n  - Improve \"new\" bibliography parsing (#757)\n",
-			"settings":
-			{
-				"buffer_size": 349,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
 			}
 		},
 		{
 			"file": "ms-thesis.tex",
 			"settings":
 			{
-				"buffer_size": 10602,
+				"buffer_size": 10806,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "utthesis.cls",
+			"file": "front-matter/abbreviations.tex",
 			"settings":
 			{
-				"buffer_size": 16218,
+				"buffer_size": 725,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "references/references-thesis.bib",
+			"file": "front-matter/abstract.tex",
 			"settings":
 			{
-				"buffer_size": 195510,
-				"line_ending": "Unix"
+				"buffer_size": 3338,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -192,18 +189,24 @@
 	},
 	"file_history":
 	[
+		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/references/references-thesis.bib",
+		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/text-removed-from-discussion.tex",
+		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/LaTeXSmartQuotes/LaTeXSmartQuotes.sublime-settings",
+		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXSmartQuotes.sublime-settings",
+		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/back-matter/vita.tex",
+		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/back-matter/vita.aux",
+		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/utthesis.cls",
 		"/C/Users/MJGroup/Desktop/GitHubLog.txt",
 		"/C/Users/MJGroup/AppData/Roaming/Daniel's XL Toolbox/user/xl-toolbox-log-6-29-2016.txt",
 		"/C/Users/MJGroup/AppData/Roaming/Daniel's XL Toolbox/error reporting dialog text.txt",
 		"/C/Users/MJGroup/AppData/Roaming/Daniel's XL Toolbox/current-log.txt",
 		"/C/Users/MJGroup/AppData/Roaming/Daniel's XL Toolbox/Clipboard Text.txt",
 		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/front-matter/acknowledgements.tex",
-		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/utthesis.cls",
-		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/references/references-thesis.bib",
 		"/C/Strawberry/README.txt",
 		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/ms-thesis.tex",
-		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/MJGroup/AppData/Roaming/MiKTeX/2.9/scripts/latexmk/perl/latexmk.pl",
 		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/front-matter/abbreviations.tex",
 		"/C/Users/MJGroup/Documents/GitHub/MS-Thesis/.latexmkrc",
@@ -228,7 +231,6 @@
 		"/C/Users/MJGroup/jbohling@vols.utk.edu/Grade 91/Equity/Creep Specimens/NAL47-FT-2/Data for %RA.txt",
 		"/C/Users/MJGroup/Downloads/drivers_sha1.txt",
 		"/C/Users/MJGroup/Downloads/drivers_sha1.csv",
-		"/C/Users/MJGroup/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/MJGroup/Downloads/Header 47 FGHAZ Gleeble - test PWHT #7 (Lucy).xls",
 		"/C/Users/MJGroup/jbohling@vols.utk.edu/CT15C/Hot ductility/Gleeble programs and data/CONE1/ONCOOL/OC2000.D02"
 	],
@@ -241,6 +243,8 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"",
+			"<current file>",
 			""
 		]
 	},
@@ -249,6 +253,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"([0-9]{1,4})\\\\textdegree\\{\\}F",
+			"2375\\textdegree{}F",
+			"([0-9]{1,4})\\\\textdegree\\{\\}F",
+			"range",
+			"\\gls{ndr}",
+			"ndr",
+			"liquid",
+			" liquid ",
+			"shibasaki_experience_1993",
+			"\\gls{ndr",
+			"\\gls{ndr}",
+			"dewar",
+			"\\gls{ndt}",
+			"HAZ",
+			"zdr",
+			"ZDT",
+			"zdt",
+			"\\gls{zdt}",
+			"\\gls{zdr}",
+			"Materials character",
+			"Welding {J}ournal",
+			"Welding Journal",
+			"microstructure evolution",
+			"lippold",
+			"Figure D",
+			"10\\% Oxalic Acid, Electrolytic",
+			"10\\% oxalic acid, electrolytic",
+			"Figure ??",
+			"fig:c5-oh-2375-fracture-50x",
+			"fracture-50x",
+			"Figure Y",
+			"formerly melted",
+			"c1-oh-2375-500X",
 			"shibasaki",
 			"anderson_catalytic_1984",
 			"bulletin",
@@ -283,9 +320,11 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\\\SmartUnit{fahrenheit=\\1}",
+			"shibasaki_experience_1994",
 			"\\textdegree{}",
 			"\\textdegree",
 			"Cone~1",
@@ -315,7 +354,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -324,15 +363,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8205,
+						"buffer_size": 8495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3581,
-								3581
+								6949,
+								6966
 							]
 						],
 						"settings":
@@ -340,10 +379,10 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1026.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -352,15 +391,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7044,
+						"buffer_size": 11345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								535,
+								535
 							]
 						],
 						"settings":
@@ -371,7 +410,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -380,20 +419,194 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2491,
+						"buffer_size": 2719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1452,
-								1452
+								843,
+								843
 							]
 						],
 						"settings":
 						{
 							"latex_smart_quotes_current_language": "english",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chapters/chapter-4.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3839,
+								3839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chapters/chapter-5.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8142,
+								8142
+							]
+						],
+						"settings":
+						{
+							"latex_smart_quotes_current_language": "english",
+							"spell_check": false,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "front-matter/acknowledgements.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "front-matter/dedication.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "chapters/chapter-6.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3470,
+								3470
+							]
+						],
+						"settings":
+						{
+							"latex_smart_quotes_current_language": "english-ucs",
+							"spell_check": true,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "chapters/chapter-7.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -404,111 +617,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "chapters/chapter-4.tex",
+					"buffer": 9,
+					"file": "ms-thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4078,
+						"buffer_size": 10806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2701,
-								2701
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"wrap_width": 0
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapters/chapter-5.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12928,
-								12928
+								1413,
+								1413
 							]
 						],
 						"settings":
 						{
 							"latex_smart_quotes_current_language": "english",
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1799.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapters/chapter-6.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2261,
-								2261
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "front-matter/abbreviations.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -518,20 +648,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "chapters/chapter-7.tex",
+					"buffer": 10,
+					"file": "front-matter/abbreviations.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								725,
+								725
 							]
 						],
 						"settings":
@@ -542,126 +672,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
+					"file": "front-matter/abstract.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 349,
+						"buffer_size": 3338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								349,
-								349
+								2506,
+								2506
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"spell_check": true,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "ms-thesis.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4547,
-								4547
-							]
-						],
-						"settings":
-						{
-							"latex_smart_quotes_current_language": "english",
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 846.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "utthesis.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14819,
-								14819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 755.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "references/references-thesis.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 195510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189410,
-								189410
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 49009.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
