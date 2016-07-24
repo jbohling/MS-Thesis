@@ -80,6 +80,8 @@
 \usepackage{textcomp}
 \usepackage{pdflscape}
 
+\usepackage{paralist} %provides the compactenum environment for compact lists with less space between items
+
 \usepackage[arrows=pgf-filled]{mhchem}  % for easy display of chemical equations
 
 
@@ -110,6 +112,15 @@
 \usepackage{smartunits}
 \SmartUnitSettings{places=0}
 \SmartUnit{metric imperial}
+
+% Rotated page numbers on landscape pages
+\usepackage{tikz}
+\fancypagestyle{lscapedplain}{
+    \fancyhf{}
+    \fancyfoot{%
+    \tikz[remember picture,overlay]
+    \node[outer sep=1in,above,rotate=90] at (current page.east) {\thepage};}
+}
 
 \makeglossaries
 
