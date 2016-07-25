@@ -39,7 +39,7 @@
 			"file": "chapters/chapter-2.tex",
 			"settings":
 			{
-				"buffer_size": 11345,
+				"buffer_size": 18350,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "chapters/chapter-5.tex",
 			"settings":
 			{
-				"buffer_size": 44864,
+				"buffer_size": 44810,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "front-matter/dedication.tex",
 			"settings":
 			{
-				"buffer_size": 145,
+				"buffer_size": 151,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "ms-thesis.tex",
 			"settings":
 			{
-				"buffer_size": 10806,
+				"buffer_size": 11154,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "front-matter/abbreviations.tex",
 			"settings":
 			{
-				"buffer_size": 725,
+				"buffer_size": 713,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "front-matter/abstract.tex",
 			"settings":
 			{
-				"buffer_size": 3338,
+				"buffer_size": 3236,
 				"line_ending": "Windows"
 			}
 		}
@@ -253,6 +253,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"enumerate",
+			"\\SmartUnit",
+			"\\\\SmartUnit",
+			"\\SmartUnit",
 			"([0-9]{1,4})\\\\textdegree\\{\\}F",
 			"2375\\textdegree{}F",
 			"([0-9]{1,4})\\\\textdegree\\{\\}F",
@@ -320,9 +324,10 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"\\protect\\SmartUnit",
 			"\\\\SmartUnit{fahrenheit=\\1}",
 			"shibasaki_experience_1994",
 			"\\textdegree{}",
@@ -354,7 +359,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -379,10 +384,10 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 522.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -391,26 +396,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11345,
+						"buffer_size": 18350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								535,
-								535
+								4991,
+								4991
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"latex_smart_quotes_current_language": "english-ucs",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?”“’‘"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -439,7 +446,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -465,10 +472,10 @@
 							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -477,28 +484,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44864,
+						"buffer_size": 44810,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8142,
-								8142
+								8915,
+								8915
 							]
 						],
 						"settings":
 						{
 							"latex_smart_quotes_current_language": "english",
 							"spell_check": false,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 1044.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -514,8 +523,8 @@
 						"selection":
 						[
 							[
-								146,
-								146
+								885,
+								885
 							]
 						],
 						"settings":
@@ -526,7 +535,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -535,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 145,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								89,
+								89
 							]
 						],
 						"settings":
@@ -584,7 +593,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -613,7 +622,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -622,15 +631,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10806,
+						"buffer_size": 11154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1413,
-								1413
+								5460,
+								5460
 							]
 						],
 						"settings":
@@ -641,10 +650,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -653,15 +662,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 725,
+						"buffer_size": 713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								725,
-								725
+								115,
+								115
 							]
 						],
 						"settings":
@@ -672,7 +681,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -681,15 +690,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3338,
+						"buffer_size": 3236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2506,
-								2506
+								1036,
+								1036
 							]
 						],
 						"settings":
@@ -701,7 +710,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
